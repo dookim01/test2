@@ -1,8 +1,84 @@
 .App {
   text-align: center;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
-.App-logo {
+
+/* 네비게이션 바 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.logo span {
+  color: #ff6b6b;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.login-btn {
+  padding: 8px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: white;
+  cursor: pointer;
+}
+
+.signup-btn {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #666;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -34,5 +110,5 @@
   }
   to {
     transform: rotate(360deg);
-  }
-}
+  } */
+/* } */
