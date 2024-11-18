@@ -1,114 +1,39 @@
 .App {
   text-align: center;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom right, #f5f7ff, #f0f4ff);
+  /* background: rgb(236, 237, 241); */
+  /* background-color: #f0f4ff; */
+  /* background-color: #f8f9fc; */
+  /* background-color: #f5f7ff; */
+  color: #333;
+  min-height: 1000vh; 
+
 }
-a {
+/* a {
   text-decoration: none;
   color: inherit;
-}
+} */
 
+.contents {
+  /* margin: 0 auto;
+  width: 70%; */
 
-/* 네비게이션 바 */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.navbar {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 50px;
-  background-color: white;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-  text-decoration: none;
-  color: black;
-}
-
-.logo span {
-  color: #ff6b6b;
-}
-
-.nav-links {
-  display: flex;
-  gap: 30px;
-  list-style: none;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: black;
-  font-size: 16px;
-}
-
-.auth-buttons {
-  display: flex;
-  gap: 10px;
-}
-
-.login-btn {
-  padding: 8px 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background: white;
-  cursor: pointer;
-}
-
-.signup-btn {
-  padding: 8px 20px;
-  border: none;
-  border-radius: 5px;
-  background: #666;
-  color: white;
-  cursor: pointer;
-}
-
-
-
-
-
-
-
-
-
-
-
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* align-items: center; */
+  min-height: 100vh;
+  padding: 20px;
+}
+.pages {
+  width: 100%;
+  max-width: 800px;        /* 최대 너비 제한 */
+  margin: 110px auto;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 768px) {
+  .pages {
+    max-width: 100%;
+    padding: 0 20px;
   }
-  to {
-    transform: rotate(360deg);
-  } */
-/* } */
+}
